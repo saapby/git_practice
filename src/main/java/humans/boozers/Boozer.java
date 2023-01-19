@@ -1,8 +1,8 @@
 package humans.boozers;
 
-import com.saapby.example.one.additional.Bayarishnik;
-import com.saapby.example.one.additional.Liver;
-import com.saapby.example.one.humans.Human;
+import humans.Human;
+import humans.additional.Bayarishnik;
+import humans.additional.Liver;
 
 public class Boozer extends Human {
 

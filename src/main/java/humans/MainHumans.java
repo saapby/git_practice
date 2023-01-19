@@ -1,6 +1,6 @@
 package humans;
 
-import com.saapby.example.one.humans.boozers.Boozer;
+import humans.boozers.Boozer;
 
 public class MainHumans {
 
