@@ -2,6 +2,7 @@ package zoo;
 
 import zoo.Animals.*;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class MainZoo {
@@ -17,7 +18,7 @@ public class MainZoo {
         Boozer boozer = new Boozer();
         boozer.setName("Dyadya Fedya");
 
-        List<IAnimal> zoo = Animal.getZoo();
+        List<IAnimal> zoo = Arrays.asList(cat, dog, boozer);
         zoo.forEach(iAnimal -> {
             System.out.print(iAnimal.getName() + " roars: ");
             iAnimal.roar();
