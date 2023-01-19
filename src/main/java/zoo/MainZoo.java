@@ -1,9 +1,6 @@
 package zoo;
 
-import zoo.Animals.Animal;
-import zoo.Animals.Cat;
-import zoo.Animals.Dog;
-import zoo.Animals.IAnimal;
+import zoo.Animals.*;
 
 import java.util.List;
 
@@ -17,12 +14,13 @@ public class MainZoo {
         Dog dog = new Dog();
         dog.setName("Sharik");
 
+        Boozer boozer = new Boozer();
+        boozer.setName("Dyadya Fedya");
+
         List<IAnimal> zoo = Animal.getZoo();
         zoo.forEach(iAnimal -> {
             System.out.print(iAnimal.getName() + " roars: ");
             iAnimal.roar();
         });
-
-
     }
 }
