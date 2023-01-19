@@ -1,3 +1,4 @@
+import humans.MainHumans;
 import zoo.MainZoo;
 
 public class Main {
@@ -7,5 +8,6 @@ public class Main {
         System.out.println("Hello Zoo!");
         MainZoo.main(args);
         System.out.println("Hello Human!");
+        MainHumans.main(args);
     }
 }
