@@ -9,5 +9,6 @@ public class Main {
         MainZoo.main(args);
         System.out.println("Hello Human!");
         MainHumans.main(args);
+        System.out.println("Bye, Bitch!");
     }
 }
